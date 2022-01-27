@@ -1,0 +1,30 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+}
+
+.card__person {
+  position: absolute;
+  width: 400px;
+  padding: 20px;
+  max-width: 85vw;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  border-radius: 6px;
+}
+
+.card__description {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  position: absolute;
+  bottom: 24px;
+  color: white;
+}
+
+.card__description * {
+  padding-bottom: 4px;
+}

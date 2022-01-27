@@ -1,0 +1,22 @@
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.header__logo {
+  height: 50px;
+  object-fit: contain;
+}
+
+.header__icon {
+  font-size: 20px;
+}
+
+.header__arrowBack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 12px;
+}

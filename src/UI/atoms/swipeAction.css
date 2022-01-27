@@ -1,0 +1,27 @@
+.swipeAction {
+  display: flex;
+  position: relative;
+  background-color: red;
+  width: 100%;
+}
+
+img {
+  object-fit: contain;
+  width: 300px;
+}
+
+.swipeAction__left {
+  position: absolute;
+  transform: rotate(-36deg);
+  left: 0;
+  width: 30%;
+}
+
+.swipeAction__right {
+  position: absolute;
+  top: 30px;
+  transform: rotate(20deg);
+  right: 0px;
+  width: 30%;
+  z-index: 99;
+}

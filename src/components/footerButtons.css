@@ -1,0 +1,43 @@
+.footerButtons {
+  align-items: center;
+  bottom: 4vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+}
+
+.footerButtons .MuiIconButons-root {
+  background-color: white;
+  box-shadow: 0px 10px 52px 0px rgba(0, 0, 0, .3) !important;
+  padding: 0px;
+}
+
+.footerButtons__replay {
+  padding: 2vh;
+  color: #f5b748;
+}
+
+.footerButtons__close {
+  padding: 2vh;
+  color: #ec5e6f;
+}
+
+.footerButtons__star{
+  padding: 2vh;
+  color: #62b4f9;
+}
+
+.footerButtons__favorite{
+  padding: 2vh;
+  color: #76e2b3;
+}
+
+.footerButtons__flashIcon{
+  padding: 2vh;
+  color: #915dd1;
+}
+
+.MuiIconButton-root {
+  padding: 4px !important;
+}
